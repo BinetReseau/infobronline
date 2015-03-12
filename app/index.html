@@ -1,48 +1,88 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>InfoBR</title>
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+        <title>InfoBR</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+        <!-- endbower -->
+        <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
 
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Windows</a></li>
-          <li><a href="#">Mac</a></li>
-          <li><a href="#">Linux</a></li>
-        </ul>
-        <h3 class="text-muted">InfoBR</h3>
-      </div>
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-center">
+                        InfoBR<br />
+                        <small>
+                            Comment accéder à internet ?
+                        </small>
+                    </h2>
+                </div>
+            </div>
 
-      <div class="footer">
-        <p>♥ par le BR</p>
-      </div>
-    </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>
+                        Félicitations, tu as accompli la première étape permettant d'accéder à internet ! Sur cette page se trouvent les dernières explications pour terminer  la configuration de son ordinateur. Choici ton système d'exploitation et suit les instructions.
+                    </p>
+                </div>
+            </div>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div role="tabpanel">
+                        <ul class="nav nav-tabs" role="tablist" id="tabs-os">
+                            <li role="presentation" class="active"><a href="#windows8" aria-controls="windows8" role="tab" data-toggle="tab">Windows 8</a></li>
+                            <li role="presentation"><a href="#windows7" aria-controls="windows7" role="tab" data-toggle="tab">Windows 7/Vista</a></li>
+                            <li role="presentation"><a href="#mac" aria-controls="mac" role="tab" data-toggle="tab">Mac</a></li>
+                            <li role="presentation"><a href="#linux" aria-controls="linux" role="tab" data-toggle="tab">Linux</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="windows8">
+                                Windows 8
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="windows7">
+                                Windows 7 / Vista
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="mac">
+                                Mac
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="linux">
+                                Linux
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>♥ par le BR</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
         <script src="../bower_components/bootstrap/js/affix.js"></script>
@@ -62,5 +102,5 @@
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
-</body>
+    </body>
 </html>

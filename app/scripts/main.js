@@ -1,2 +1,4 @@
-/* jshint devel:true */
-console.log('\'Allo \'Allo!');
+$('#tabs-os a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
